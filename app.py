@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 #Loading your saved model. Be sure to change the path
-model = joblib.load('mlinear.joblib')
+model = joblib.load('linearANC.joblib')
 
 # Set page title and layout
 st.set_page_config(page_title="Maternal Mortality Prediction", layout="wide")
@@ -54,3 +54,4 @@ if st.button('Predict'):
 # Add a footer
 st.markdown("---")
 st.markdown("Created with Streamlit")
+
